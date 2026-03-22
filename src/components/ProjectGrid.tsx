@@ -1,5 +1,19 @@
 const projects = [
     {
+        id: 4,
+        title: "Flowboard",
+        description: "Flowboard is a modern task and project management application designed for teams, built with a Full-Stack architecture using Next.js. It offers a seamless experience through an interactive Kanban board, detailed table views, and seamless team member management. (Try login with user: guest@gmail.com, password: guest123 )",
+        technologies: ["Next.js", "React", "Tailwind CSS", "Prisma ORM", "PostgreSQL", "NextAuth.js"],
+        link: "https://flowboard-five-psi.vercel.app/"
+    },
+    {
+        id: 3,
+        title: "Daily Zen Dashboard",
+        description: "Personal dashboard focused on productivity and well-being. Features a clean, modern user interface for managing daily tasks.",
+        technologies: ["Next.js", "Tailwind CSS", "React", "TypeScript", "UI/UX", "Dashboard Design"],
+        link: "https://daily-zen-one.vercel.app/"
+    },
+    {
         id: 1,
         title: "ARS Yunen",
         description: "Corporate healthcare platform. Design and development of the external website focused on optimizing user experience (UX) and improving SEO performance.",
@@ -12,20 +26,6 @@ const projects = [
         description: "High-traffic digital magazine and lifestyle portal. Maintenance and development of dynamic layouts, and navigation optimization for both mobile and desktop users.",
         technologies: ["WordPress", "PHP", "HTML/CSS", "JavaScript"],
         link: "https://ohmagazinerd.com/"
-    },
-    {
-        id: 3,
-        title: "Daily Zen Dashboard",
-        description: "Personal dashboard focused on productivity and well-being. Features a clean, modern user interface for managing daily tasks.",
-        technologies: ["Next.js", "Tailwind CSS", "React", "TypeScript", "UI/UX", "Dashboard Design"],
-        link: "https://daily-zen-one.vercel.app/"
-    },
-    {
-        id: 4,
-        title: "Vue Weather App",
-        description: "A responsive weather application built with Vue.js and integrated with a weather API. Features real-time weather data and a clean, intuitive UI.",
-        technologies: ["Vue.js", "JavaScript", "API Integration", "Responsive Design"],
-        link: "https://github.com/HOOCX/vue-3-firebase-9-auth"
     },
     {
         id: 5,
